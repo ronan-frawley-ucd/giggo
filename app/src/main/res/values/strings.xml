@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Giggo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_one">Make a Gig</string>
+    <string name="button_two">Find a Gig</string>
+    <string name="home_description">Giggo is an Android Application. It was built as a college project by Ronan Frawley, a masters student in Computer Science at University College Dublin, Ireland.\n\nThe basic premise of Giggo is that it allows a user to locate music events in their area, on the fly.\n\nThis is a demonstration version of the application and does not have the intended full range of functionality.</string>
+    <string name="copyright">Copyright &#169; Ronan Frawley</string>
+    <string name="title">Band:\u00a0</string>
+    <string name="snippet">Info:\u00a0</string>
+    <string name="band_name">Band Name</string>
+    <string name="event_description">Description</string>
+
+</resources>
