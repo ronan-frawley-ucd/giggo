@@ -64,11 +64,9 @@ This database is only a working demonstration and requires additional functional
 
 4.1	Skills Gained
 
-•	Android Studio (Android Studio, 2014) – The IDE used to develop Giggo was Google’s Android Studio. It seemed that, as a result of using Google libraries for mapping, that Android Studio would be convenient.
-
-•	XML – I had not used the XML language before this module and this project crystalized its value to me. 
-
-•	Activity Lifecycles – I found that activity lifecycles could be messy on an application if you are not being careful. In many cases this caused crashes when poorly executed.
+  •	Android Studio (Android Studio, 2014) – The IDE used to develop Giggo was Google’s Android Studio. It seemed that, as a result of using Google libraries for mapping, that Android Studio would be convenient.
+  •	XML – I had not used the XML language before this module and this project crystalized its value to me. 
+  •	Activity Lifecycles – I found that activity lifecycles could be messy on an application if you are not being careful. In many cases this caused crashes when poorly executed.
 
 4.2	Future Work
 
