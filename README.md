@@ -2,7 +2,7 @@
 
 ===============
 
-        1	Project Specification
+    1	Project Specification
 
 Giggo is an Android Application. It was built as a college project by Ronan Frawley, a masters student in Computer Science at University College Dublin, Ireland. The basic premise of giggo is that it allows a user to locate music events in their area, on the fly. This is a demonstration version of the application and does not have the intended full range of functionality.
 
