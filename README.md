@@ -2,25 +2,25 @@
 
 ===============
 
-  1	Project Specification
+        1	Project Specification
 
 Giggo is an Android Application. It was built as a college project by Ronan Frawley, a masters student in Computer Science at University College Dublin, Ireland. The basic premise of giggo is that it allows a user to locate music events in their area, on the fly. This is a demonstration version of the application and does not have the intended full range of functionality.
 
-1.1	The Function
+        1.1	The Function
 The intention is to develop an application that uses Google Maps to locate gigs in Dublin. This app would therefore have the following features: 
 
 • A map fragment activity that focuses on Dublin. The user can zoom out, but there will only be Dublin gigs initially. The application should attempt to pull the users GPS information to allow for scalability beyond Dublin. 
 • A small icon indicating the location of each gig. When tapped once, this icon should expand into a bigger icon with some basic information (i.e. name of the act, name of the venue and the date/time). 
 • When the bigger icon is selected, a new activity will give the full details of the event. There should be user options here that will allow a connection to other APIs and phone applications – for example, if the user has the Facebook application – it will allow them to like the app or the venue. 
 
-1.2	The Project
+        1.2	The Project
 The focus of the project will be to get points 1 and 2 above working as a demonstration applocation. This is because the functionality specified for point 3 is broad and could end up as being a more comprehensive piece of work than points 1 & 2 combined.
 
 Therefore, the goal will be to develop a fully operational mapping application that shows gigs in the Dublin area. Once this is working, the potential intricacies of the ‘ additional details activity’ can be explored and implemented. This will make sure the application is delivered with good functionality in the time allocated to the project completion.
 
 ===============
 
-  2	Google Maps Android API v2
+    2	Google Maps Android API v2
 
 The core functionaltiy of this application is the use of mapping geo-locations. The Google Maps Android API v2 (Google Developers, 2014) allows users to make thousands of requests per day for free and as such would suit my needs. However, there are alternative mapping APIs that could have been used for the mapping and location functionality. For example, the Open Street Map Android API provides the same functionality as the above stated Google Maps API.
 
@@ -38,8 +38,7 @@ Building upon this programatic infrastructure, two maps are used in the Giggo ap
 
 ===============
 
-  3	Remote Database
-
+    3	Remote Database
     3.1	Current Database
 
 In order to populate information in the ‘find a gig’ activity map, that dynamically took gig information entered by other users in the ‘make a gig’ activity, a remote database would be necessary. In this situation a simple MySQL database is used. Boilerplate PHP scripts were accessed by the application in order to insert and read gig information.
@@ -60,8 +59,7 @@ This database is only a working demonstration and requires additional functional
 
 ===============
 
-  4	Resources
-
+    4	Resources
     4.1	Skills Gained
 
 •	Android Studio (Android Studio, 2014) – The IDE used to develop Giggo was Google’s Android Studio. It seemed that, as a result of using Google libraries for mapping, that Android Studio would be convenient.
