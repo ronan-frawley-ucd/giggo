@@ -41,7 +41,7 @@ Building upon this programatic infrastructure, two maps are used in the Giggo ap
     3	Remote Database
 
 
-    3.1	Current Database
+        3.1	Current Database
 
 In order to populate information in the ‘find a gig’ activity map, that dynamically took gig information entered by other users in the ‘make a gig’ activity, a remote database would be necessary. In this situation a simple MySQL database is used. Boilerplate PHP scripts were accessed by the application in order to insert and read gig information.
 
@@ -49,7 +49,7 @@ The Insert activity is called after the ‘Create’ mapping activity. In this a
 
 The Make activity is called after the user selects to ‘find a gig’. Another HTTP request is made to ‘http://ronanfrawley.com/test.php’. The PHP then lists out each gig on the database. The webpage is then turned into a String on the application. That String looks for gigs using pattern matching. As such, each gig is stored on multidimensional arrays and turned into markers on the map.
 
-    3.2	Future Work
+        3.2	Future Work
 
 This database is only a working demonstration and requires additional functionality to support the application. For this reason, the bulk of the immediate future work will be on the interactions between the database and the application. These imporvements will include:
 
@@ -64,7 +64,7 @@ This database is only a working demonstration and requires additional functional
     4	Resources
 
 
-    4.1	Skills Gained
+        4.1	Skills Gained
 
 •	Android Studio (Android Studio, 2014) – The IDE used to develop Giggo was Google’s Android Studio. It seemed that, as a result of using Google libraries for mapping, that Android Studio would be convenient.
 
@@ -72,7 +72,7 @@ This database is only a working demonstration and requires additional functional
 
 •	Activity Lifecycles – I found that activity lifecycles could be messy on an application if you are not being careful. In many cases this caused crashes when poorly executed.
 
-    4.2	Future Work
+        4.2	Future Work
 
 •	Database and Accounts – Stated in Section 3.2, there will be a number of works on the remote database and the application functionality.
 
